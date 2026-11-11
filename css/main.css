@@ -9,7 +9,18 @@ h1 {
   background-color: lightsalmon;
   padding: 3rem;
 }
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 5px;
+}
 .sub-item {
   background-color: rgb(253, 213, 197);
   padding: 1rem;
+}
+.item-1 {
+  grid-column: 1/4;
+}
+.item-5 {
+  grid-column: 1/4;
 }
